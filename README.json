@@ -13,7 +13,7 @@
   "context": [
   "\n## Idea",
   "it is a terraform module that was created to maintain consistent names and tags for resources in our organization.",
-  "\nWe really believe and love Open Source, We provide this module under *GNU General Public License v3* license, feel free to using it.",
+  "\nWe really believe and love Open Source, We provide this module under [GNU General Public License v3](LICENSE.md) license, feel free to using it.",
   "\n## Usage",
   "It's recommended to use one `tagger` module for every unique resource of a given resource type.",
   "For example, if you have 10 instances, there should be 10 different labels.",

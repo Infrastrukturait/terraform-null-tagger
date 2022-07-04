@@ -6,7 +6,7 @@
 ## Idea
 it is a terraform module that was created to maintain consistent names and tags for resources in our organization.
 
-We really believe and love Open Source, We provide this module under *GNU General Public License v3* license, feel free to using it.
+We really believe and love Open Source, We provide this module under [GNU General Public License v3](LICENSE.md) license, feel free to using it.
 
 ## Usage
 It's recommended to use one `tagger` module for every unique resource of a given resource type.
@@ -34,5 +34,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
+See [LICENSE.md](LICENSE.md) for full details.
 ## Authors
 - Rafał Masiarek | [website](https://masiarek.pl) | [email](mailto:rafal@masiarek.pl) | [github](https://github.com/rafalmasiarek)

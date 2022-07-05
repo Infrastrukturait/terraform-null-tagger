@@ -10,6 +10,9 @@
       "website": "https://masiarek.pl"
     }
   ],
+  "includes": [
+    "docs/terraform.md"
+  ],
   "context": [
   "\n## Idea",
   "it is a terraform module that was created to maintain consistent names and tags for resources in our organization.",
@@ -17,7 +20,7 @@
   "\n## Usage",
   "It's recommended to use one `tagger` module for every unique resource of a given resource type.",
   "For example, if you have 10 instances, there should be 10 different labels.",
-  "However, if you have multiple different kinds of resources (e.g. instances, security groups, file systems, and elastic ips), then they can all share the same label assuming they are 
-logically related.\n"
+  "However, if you have multiple different kinds of resources (e.g. instances, security groups, file systems, and elastic ips), ",
+  "then they can all share the same label assuming they are logically related.\n"
   ]
 }
